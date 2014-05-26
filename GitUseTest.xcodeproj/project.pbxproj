@@ -21,6 +21,7 @@
 		A9A8A37E19335A0F00E9DC59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A8A36019335A0F00E9DC59 /* UIKit.framework */; };
 		A9A8A38619335A0F00E9DC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A38419335A0F00E9DC59 /* InfoPlist.strings */; };
 		A9A8A38819335A0F00E9DC59 /* GitUseTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8A38719335A0F00E9DC59 /* GitUseTestTests.m */; };
+		A9A8A39319335BC400E9DC59 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8A39219335BC400E9DC59 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A9A8A38319335A0F00E9DC59 /* GitUseTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseTestTests-Info.plist"; sourceTree = "<group>"; };
 		A9A8A38519335A0F00E9DC59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9A8A38719335A0F00E9DC59 /* GitUseTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseTestTests.m; sourceTree = "<group>"; };
+		A9A8A39119335BC400E9DC59 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		A9A8A39219335BC400E9DC59 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				A9A8A36B19335A0F00E9DC59 /* AppDelegate.h */,
 				A9A8A36C19335A0F00E9DC59 /* AppDelegate.m */,
+				A9A8A39119335BC400E9DC59 /* NewViewController.h */,
+				A9A8A39219335BC400E9DC59 /* NewViewController.m */,
 				A9A8A36E19335A0F00E9DC59 /* Main.storyboard */,
 				A9A8A37119335A0F00E9DC59 /* ViewController.h */,
 				A9A8A37219335A0F00E9DC59 /* ViewController.m */,
@@ -252,6 +257,7 @@
 				A9A8A37319335A0F00E9DC59 /* ViewController.m in Sources */,
 				A9A8A36D19335A0F00E9DC59 /* AppDelegate.m in Sources */,
 				A9A8A36919335A0F00E9DC59 /* main.m in Sources */,
+				A9A8A39319335BC400E9DC59 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
